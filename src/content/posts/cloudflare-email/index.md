@@ -1,6 +1,6 @@
 ---
 title: 通过Cloudflare免费配置无限企业级邮箱
-description: 本文详细介绍了如何利用 Cloudflare 和 Resend 为 gemsly.top 域名免费配置无限企业级邮箱。核心步骤：将域名托管到 Cloudflare，配置邮件路由规则实现所有邮件转发到个人邮箱；在 Resend 注册账号、创建 API Key、添加域名并在 Cloudflare 中配置相应的 DNS 记录。
+description: 本文详细介绍了如何利用 Cloudflare 和 Resend 为 gemslyho.org 域名免费配置无限企业级邮箱。核心步骤：将域名托管到 Cloudflare，配置邮件路由规则实现所有邮件转发到个人邮箱；在 Resend 注册账号、创建 API Key、添加域名并在 Cloudflare 中配置相应的 DNS 记录。
 cover: "/post/cloudflare-email/cover.jpg"
 published: 2025-10-04
 tags:
@@ -27,7 +27,7 @@ Cloudflare是一家专注于提供CDN（内容分发网络）、网络安全防�
    ![开启电子邮件路由](image-20251006173157575.png)
 
 4. **配置“全部接收”（Catch All）规则**：
-   - 在“路由规则”（Routing Rules）板块中，找到“Catch All”选项（可匹配`gemsly.top`域名下所有未单独设置规则的邮箱地址），点击右侧“编辑”；
+   - 在“路由规则”（Routing Rules）板块中，找到“Catch All”选项（可匹配`gemslyho.org`域名下所有未单独设置规则的邮箱地址），点击右侧“编辑”；
 
    - 在“操作”（Action）下拉菜单中选择“发送到电子邮件”，输入用于接收转发邮件的个人邮箱（如163邮箱），点击“保存”（Save）。
 
@@ -39,7 +39,7 @@ Cloudflare是一家专注于提供CDN（内容分发网络）、网络安全防�
 
    ![点击链接并验证完成](image-20251006173643620.png)
 
-6. **确认配置生效**：返回Cloudflare邮件路由页面并刷新，若“Catch All”规则旁显示对勾，即表示`gemsly.top`域名的邮件接收功能配置完成。
+6. **确认配置生效**：返回Cloudflare邮件路由页面并刷新，若“Catch All”规则旁显示对勾，即表示`gemslyho.org`域名的邮件接收功能配置完成。
 
    ![规则已经生效](image-20251006173720406.png)
 
@@ -60,7 +60,7 @@ Cloudflare仅支持邮件接收，发送功能需借助免费服务Resend.com实
 
      ![复制并保存密钥](image-20251006174450100.png)
 
-3. **添加`gemsly.top`域名至Resend**：
+3. **添加`gemslyho.org`域名至Resend**：
 
    - 左侧导航栏选择“Domains”，点击“Add Domain”，以我的域名为例，输入你自己的域名，地区可以选一个离自己近的，点击“添加”；
 
@@ -74,7 +74,7 @@ Cloudflare仅支持邮件接收，发送功能需借助免费服务Resend.com实
 
 4. **手动添加Cloudflare中的Resend所需DNS记录**：
 
-   - 登录Cloudflare控制台，进入`gemsly.top`域名的“DNS记录”（DNS Records）页面，点击“添加记录”（Add Record），按以下步骤添加3条记录：
+   - 登录Cloudflare控制台，进入`gemslyho.org`域名的“DNS记录”（DNS Records）页面，点击“添加记录”（Add Record），按以下步骤添加3条记录：
      1. **MX类型记录**：选择“MX”类型，“名称”填写“send”，“值”粘贴Resend生成的MX记录值，“优先级”填写10，点击“保存”；
      2. **第一条TXT类型记录**：选择“TXT”类型，“名称”填写“send”，“值”粘贴Resend生成的第一条TXT记录值，点击“保存”；
      3. **第二条TXT类型记录**：选择“TXT”类型，“名称”按Resend提示填写，“值”粘贴Resend生成的第二条TXT记录值，点击“保存”。
@@ -86,11 +86,11 @@ Cloudflare仅支持邮件接收，发送功能需借助免费服务Resend.com实
 
 ## 邮件功能测试
 ### 邮件接收测试
-1. 使用任意邮箱（如Outlook）撰写测试邮件，“收件人”填写`任意前缀@你自己的域名`（如me@gemsly.top，前缀可自定义），填写主题与正文后发送；
+1. 使用任意邮箱（如Outlook）撰写测试邮件，“收件人”填写`任意前缀@你自己的域名`（如contact@gemslyho.org，前缀可自定义），填写主题与正文后发送；
 
    ![填写测试邮件](image-20251006175801337.png)
 
-2. 登录在Cloudflare邮件路由中设置的转发邮箱（如163邮箱），查看是否收到测试邮件。若能正常接收，说明“无限邮箱接收”功能生效——所有发送至`gemsly.top`域名下任意邮箱地址的邮件，均会自动转发至该转发邮箱。
+2. 登录在Cloudflare邮件路由中设置的转发邮箱（如163邮箱），查看是否收到测试邮件。若能正常接收，说明“无限邮箱接收”功能生效——所有发送至`gemslyho.org`域名下任意邮箱地址的邮件，均会自动转发至该转发邮箱。
 
    ![登录邮箱发现接收邮件和转发正常](image-20251006180124393.png)
 
@@ -101,7 +101,7 @@ Cloudflare仅支持邮件接收，发送功能需借助免费服务Resend.com实
 1. **安装Resend依赖库**：打开终端（Terminal），执行命令`pip install resend`，完成Resend Python SDK的安装；
 2. **编写发送代码**：
    - 复制Resend控制台“Emails”板块中的Python示例代码，在代码编辑器（如VS Code、Pycharm）中打开；
-   - 替换关键参数：将“api_key”替换为刚刚保存的Resend API Key；“from”字段填写`任意前缀@自己的域名`（如me@gemsly.top）；“to”字段填写接收邮件的邮箱（如自己的或别人的Outlook邮箱）；“subject”（主题）与“html”（正文）可自定义；
+   - 替换关键参数：将“api_key”替换为刚刚保存的Resend API Key；“from”字段填写`任意前缀@自己的域名`（如contact@gemslyho.org）；“to”字段填写接收邮件的邮箱（如自己的或别人的Outlook邮箱）；“subject”（主题）与“html”（正文）可自定义；
    - 删除代码中无关的附件发送逻辑（若无需发送附件）。
 3. **运行代码并验证**：执行代码，若运行无报错，登录在代码中指定的邮箱，查看是否收到测试邮件。若能正常接收，说明邮件发送功能生效。
 
@@ -124,7 +124,7 @@ Cloudflare仅支持邮件接收，发送功能需借助免费服务Resend.com实
     `-H 'Authorization: Bearer 自己的 api 密钥' \`
     `-H 'Content-Type: application/json' \`
     `-d $'{`
-     `"from": "Gemsly <me@gemsly.top>",`
+     `"from": "Gemsly <contact@gemslyho.org>",`
      `"to": ["wa86188@2980.com"],`
      `"subject": "hello world",`
      `"html": "<p>hello world</p>"`
