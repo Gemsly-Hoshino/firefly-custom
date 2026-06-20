@@ -1,29 +1,27 @@
 # 关于我 / About Me
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+最开始只是想找个地方，把自己折腾技术的零散笔记、偶尔冒出来的想法好好存着 —— 怕时间长了，那些踩过的坑、灵光一闪的思路就忘了。
 
-## 🛠️ 关于本站
+最开始是在本地写 HTML 文件，像记手写笔记似的，能在浏览器里打开看排版就很满足。后来笔记越积越多，翻找起来麻烦，才想着 “不如搭个正经网站吧”。
+
+最初选了 Hugo 做静态站，后来转移 Astro ，换主题时踩过配置的坑，部署到 Cloudflare 时等过加载转圈的页面，甚至为了适配老设备，还特意写了纯文本版本。
+
+现在看着它能稳定跑起来，有人会点进来看我记的内容，突然觉得：原来把 “自己的小世界” 整理好、分享出去，是这么踏实的事。
+
+***\*回头看看，这一切都源于那个“拥有一片数字领土”的简单念头。\**** 如今，这个小世界不仅安放了我的笔记与思考，更成了我数字身份的一部分。它不完美，但足够真实；不庞大，但属于我。这就够了。
+
+## 关于本站
 
 这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
 
 **Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
 
-
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
-
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
-
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
-
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
-
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
-
 ::github{repo="CuteLeaf/Firefly"}
 
 ::github{repo="saicaca/fuwari"}
 
----
+## 隐私政策
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+我们十分重视你的隐私与数据安全，访问本网站时，我们仅收集必要的使用相关信息（如访问记录、设备基础信息等），且会严格遵循隐私保护相关规则妥善保管。
 
+关于信息收集范围、使用方式、存储期限及你的权利等详细说明，请转到我们的[隐私政策](https://docs.gemslyho.org/support/privacy)和[开放源代码许可](https://docs.gemslyho.org/support/open-source)。感谢你的理解与信任！
