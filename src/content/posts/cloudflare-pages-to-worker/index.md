@@ -35,17 +35,17 @@ Worker 的核心是提供一个无服务器（Serverless）环境，主要用于
 
 也可以在创建Worker页面中，点击上传你的静态文件，再把Hugo、Astro转写出来的静态文件直接上传就可以了。
 
-![image-20251201221946541](image-20251201221946541.png)
+![可选静态文件上传](image-20251201221946541.png)
 
 ### 有什么迁移的理由？
 
 个人认为Workers和Pages在大的区别在设置这方面，Workers多了一个自定义路由，Pages目前还没有，这个自定义路由对于我们优选帮助很大，Workers也能链接自定义域，和Pages相同。
 
-![image-20251201222545638](image-20251201222545638.png)
+![可使用路由映射](image-20251201222545638.png)
 
 ### 用Workers托管静态会扣请求总数吗？
 
-目前来说，请求命中静态文件不会触发扣请求总数，昨天部署了很多个纯静态的Workers，到目前是没有扣请求总数的，除了调用Workers的命令，可能会产生一点点请求数目，纯静态大抵不会扣请求总数，Workers一直都是没有请求数目的。![image-20251201223249539](image-20251201223249539.png)
+目前来说，请求命中静态文件不会触发扣请求总数，昨天部署了很多个纯静态的Workers，到目前是没有扣请求总数的，除了调用Workers的命令，可能会产生一点点请求数目，纯静态大抵不会扣请求总数，Workers一直都是没有请求数目的。![静态文件worker 无请求示度](image-20251201223249539.png)
 
 ## 上传静态文件方法
 
@@ -53,19 +53,19 @@ Worker 的核心是提供一个无服务器（Serverless）环境，主要用于
 
 Workers和Pages页面，点击创建应用程序，选择Upload your static files，和Pages一样，上传网站的根目录就可以了。
 
-![image-20251201223852632](image-20251201223852632.png)
+![创建项目](image-20251201223852632.png)
 
-![image-20251201223904421](image-20251201223904421.png)
+![继续使用静态文件上传](image-20251201223904421.png)
 
 上传之后设置项目名称就可以部署了，访问默认的workers.dev域名（大陆屏蔽）发现正常显示HTML文件内容。
 
-![image-20251201223953451](image-20251201223953451.png)
+![静态资产也可部署](image-20251201223953451.png)
 
-![image-20251201224429855](image-20251201224429855.png)
+![打开网站发现正常](image-20251201224429855.png)
 
 有时候上传会被检测TypeScript，解救方法就是Wrangler CLI上传。
 
-![image-20251201225115817](image-20251201225115817.png)
+![部分预编译静态资产被检测到有框架无法继续](image-20251201225115817.png)
 
 ### CLI上传
 
@@ -73,7 +73,7 @@ Workers和Pages页面，点击创建应用程序，选择Upload your static file
 
 首先要有NodeJS环境，可以到[下载 | Node.js 中文网](https://nodejs.cn/download/)下载安装，全部点Next安装，完成之后同时按下 **Win+R** 输入 `cmd` 回车打开命令行，输入 `npm -v` 出现版本号说明安装成功。
 
-![image-20251201225637190](image-20251201225637190.png)
+![查看 npm 版本](image-20251201225637190.png)
 
 接下来安装wrangler，命令是：
 
@@ -87,15 +87,15 @@ npm install -g wrangler
 npm config set registry https://registry.npmmirror.com
 ```
 
-再次执行安装命令，大致可以解决速度慢问题。安装完成输入`wrangler --version`会正常弹出版本信息。![image-20251201230751712](image-20251201230751712.png)
+再次执行安装命令，大致可以解决速度慢问题。安装完成输入`wrangler --version`会正常弹出版本信息。![已经成功安装组件](image-20251201230751712.png)
 
-首次打开wrangler，输入`wrangler login`连接cloudflare账号，直接点击Allow。
+首次打开wrangler，输入`wrangler login`连接Cloudflare账号，直接点击Allow。
 
-![image-20251201231049119](image-20251201231049119.png)
+![同意授权](image-20251201231049119.png)
 
 以后可以通过`wrangler whoami`查询目前登陆的账号信息。
 
-![image-20251201231229106](image-20251201231229106.png)
+![可查看账号信息](image-20251201231229106.png)
 
 #### 上传
 
@@ -110,7 +110,7 @@ workers_dev = true #启用workers.dev域名
 
 在资源管理器地址栏输入cmd打开命令提示符，直接输入`wrangler deploy`，就会直接上传到你账户下的Workers和Pages上面，如果项目不存在就会创建，有同名项目则会覆盖先前的部署。通过这个方法可以覆盖网页端的错误提示。有时候还是无法上传，类似fetch error就打开加速器。
 
-![image-20251201233029899](image-20251201233029899.png)
+![可成功部署](image-20251201233029899.png)
 
 ## Workers和Pages优选
 
@@ -118,7 +118,7 @@ workers_dev = true #启用workers.dev域名
 
 首先我们在Workers设置中有自定义域和路由两个选项，可以直接自定义域，但是路由延迟高。无论是自定义域还是路由，都要求只能添加你的 Cloudflare 帐户中的活动域。比如我在路由选项卡中的区域选择我的主域名`gemsly.top`，路由这里填写你想**给访客用的三级域名+斜杠星号**，我这里是`123.gemsly.top/*`，点击添加路由。
 
-![image-20251201234506159](image-20251201234506159.png)
+![添加路由映射](image-20251201234506159.png)
 
 添加完成后回到账户主页，进入刚才添加的域名的DNS记录，添加一个CNAME记录，比如我的是123，目标填写社区优选好的域名，关闭已代理，我这里放几个作为参考，点击保存，等DNS传播就可以打开网站查看了。
 
@@ -129,31 +129,31 @@ cf.090227.xyz
 cdn.2020111.xyz
 ```
 
-![image-20251201235416000](image-20251201235416000.png)
+![添加记录](image-20251201235416000.png)
 
 传播成功后打开[https://www.itdog.cn/http/](https://www.itdog.cn/http/)或[https://zhale.me/http/](https://zhale.me/http/)测速，发现全国大部分地区延迟降低。
 
-![image-20251201235847771](image-20251201235847771.png)
+![全国大部分访问延迟降低](image-20251201235847771.png)
 
-![image-20251202000021468](image-20251202000021468.png)
+![炸了么的访问延迟降低](image-20251202000021468.png)
 
 ### Pages优选
 
-Pages优选的要求更高一些，要求域名DNS不要托管在Cloudflare，在Pages里面添加你在Cloudflare上的域名很难优选，因为改掉他自动添加的 pages.dev 的 DNS 记录转头回来就报错了，所以在自定义域添加一个在Cloudflare DNS之外的提供商，我这里是Spaceship DNS，你是其他 DNS 的也大差不差，然后选择开始CNAME设置 ，把pages.dev的记录照常添加进DNS记录里面。![image-20251202000748039](image-20251202000748039.png)
+Pages优选的要求更高一些，要求域名DNS不要托管在Cloudflare，在Pages里面添加你在Cloudflare上的域名很难优选，因为改掉他自动添加的 pages.dev 的 DNS 记录就报错了，所以在自定义域添加一个在Cloudflare DNS之外的提供商，我这里是Spaceship DNS，是其他 DNS 的也大差不差，然后选择开始CNAME设置 ，把pages.dev的记录照常添加进DNS记录里面。![选择自定义 DNS 供应商](image-20251202000748039.png)
 
-![image-20251202001057485](image-20251202001057485.png)
+![添加域名服务器记录](image-20251202001057485.png)
 
 等待新添加的自定义域变成活动状态，我们再回到Spaceship DNS，把原来pages.dev的记录改成上述社区优选域名，点击更新DNS记录。
 
-![image-20251202001533549](image-20251202001533549.png)
+![等待状态变为活动](image-20251202001533549.png)
 
-![image-20251202001549015](image-20251202001549015.png)
+![改为社区优选域名](image-20251202001549015.png)
 
 等待DNS传播完成，使用[https://www.itdog.cn/http/](https://www.itdog.cn/http/)或[https://zhale.me/http/](https://zhale.me/http/)测速发现延迟降低。
 
-![image-20251202021329997](image-20251202021329997.png)
+![全国访问延迟降低](image-20251202021329997.png)
 
-![image-20251202021454276](image-20251202021454276.png)
+![炸了么节点访问延迟降低](image-20251202021454276.png)
 
 ## 结尾
 

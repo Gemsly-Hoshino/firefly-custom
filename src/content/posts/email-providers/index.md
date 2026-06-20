@@ -23,7 +23,7 @@ category: 技术研究
 
 - 网址：[https://email.163.com](https://email.163.com)
 
-  ![image-20251006195958241](image-20251006195958241.png)
+  ![网易免费邮箱](image-20251006195958241.png)
 
 ### 2. QQ 邮箱
 
@@ -35,7 +35,7 @@ category: 技术研究
 
 - 网址：[https://mail.qq.com](https://mail.qq.com)
 
-  ![image-20251006200132740](image-20251006200132740.png)
+  ![QQ 邮箱](image-20251006200132740.png)
 
 ### 3. 139 邮箱
 
@@ -47,7 +47,7 @@ category: 技术研究
 
 - 网址：[https://mail.10086.cn](https://mail.10086.cn)
 
-  ![image-20251006200437161](image-20251006200437161.png)
+  ![139邮箱](image-20251006200437161.png)
 
 ### 4.189邮箱
 
@@ -59,7 +59,7 @@ category: 技术研究
 
 - 网址：[https://mail.189.cn](https://mail.189.cn)
 
-  ![image-20251006201812522](image-20251006201812522.png)
+  ![189邮箱](image-20251006201812522.png)
 
 ### 5. 新浪邮箱
 
@@ -71,19 +71,19 @@ category: 技术研究
 
 - 网址：[https://mail.sina.com](https://mail.sina.com)
 
-  ![image-20251006200640749](image-20251006200640749.png)
+  ![新浪邮箱](image-20251006200640749.png)
 
 ### 6. 阿里云邮箱
 
 - 服务商：阿里云
 
-- 特点：主打企业级服务，强调稳定性、安全性与可定制性。支持 “企业域名绑定”“团队协作管理（权限 / 分组）”，有时候会误报垃圾邮件，要求解封。
+- 特点：主打企业级服务，强调稳定性、安全性与可定制性。支持 “企业域名绑定”“团队协作管理（权限 / 分组）”，有时候会误报垃圾邮件，要求解封。但是目前似乎关闭了个人的注册通道。
 
 - 后缀：aliyun.com
 
 - 网址：[https://mail.aliyun.com](https://mail.aliyun.com)
 
-  ![image-20251006200925102](image-20251006200925102.png)
+  ![阿里邮箱](image-20251006200925102.png)
 
 ### 7. 搜狐邮箱
 
@@ -95,7 +95,7 @@ category: 技术研究
 
 - 网址：[https://mail.sohu.com](https://mail.sohu.com)
 
-  ![image-20251006201141172](image-20251006201141172.png)
+  ![搜狐网络邮箱](image-20251006201141172.png)
 
 ### 8. 2980网络邮箱
 
@@ -107,7 +107,7 @@ category: 技术研究
 
 - 网址：[https://2980.com](https://2980.com)
 
-  ![image-20251006202035137](image-20251006202035137.png)
+  ![2980网络邮箱](image-20251006202035137.png)
 
 ### 9. TOM邮箱
 
@@ -119,7 +119,7 @@ category: 技术研究
 
 - 网址：[https://mail.tom.com](https://mail.tom.com)
 
-  ![image-20251006204553251](image-20251006204553251.png)
+  ![原免费服务已关闭](image-20251006204553251.png)
 
 ### 10. 完美邮箱
 
@@ -131,7 +131,7 @@ category: 技术研究
 
 - 网址：[https://www.email.cn](https://www.email.cn)
 
-  ![image-20251006205016940](image-20251006205016940.png)
+  ![完美邮箱](image-20251006205016940.png)
 
 ### 11.沃邮箱
 
@@ -143,7 +143,7 @@ category: 技术研究
 
 - 网址：[https://mail.wo.cn](https://mail.wo.cn)
 
-  ![image-20251016175520780](image-20251016175520780.png)
+  ![沃邮箱](image-20251016175520780.png)
 
 ### 12.263个人邮箱
 
@@ -155,7 +155,7 @@ category: 技术研究
 
 - 网址：[https://www.263.net/](https://www.263.net/)
 
-  ![image-20251016182606575](image-20251016182606575.png)
+  ![263邮箱](image-20251016182606575.png)
 
 ### 13.花瓣邮箱
 
@@ -167,7 +167,7 @@ category: 技术研究
 
 - 网址：[https://petalmail.com](https://petalmail.com)
 
-  ![image-20251016183701714](image-20251016183701714.png)
+  ![花瓣邮箱](image-20251016183701714.png)
 
 ## 国外邮箱
 
@@ -181,7 +181,7 @@ category: 技术研究
 
 - 网址：[https://mail.google.com/](https://mail.google.com/)
 
-  ![image-20251006205820529](image-20251006205820529.png)
+  ![Google Mail](image-20251006205820529.png)
 
 ### 2. Outlook
 
@@ -193,7 +193,7 @@ category: 技术研究
 
 - 网址：[https://outlook.com](https://outlook.com)
 
-  ![image-20251006210046682](image-20251006210046682.png)
+  ![Outlook 网页](image-20251006210046682.png)
 
 ### 3. Proton Mail
 
@@ -205,7 +205,7 @@ category: 技术研究
 
 - 网址：[https://mail.proton.me](https://mail.proton.me)
 
-  ![image-20251006210714497](image-20251006210714497.png)
+  ![Proton Mail 网页](image-20251006210714497.png)
 
 ### 4. Zoho Mail
 
@@ -217,7 +217,7 @@ category: 技术研究
 
 - 网址：[https://mail.zoho.com](https://mail.zoho.com)
 
-  ![image-20251006211308618](image-20251006211308618.png)
+  ![Zoho Mail](image-20251006211308618.png)
 
 ### 5. Mail.com
 
@@ -229,7 +229,7 @@ category: 技术研究
 
 - 网址：[https://mail.com](https://mail.com)
 
-  ![image-20251006212338739](image-20251006212338739.png)
+  ![Mail.com 不支持中国](image-20251006212338739.png)
 
 ### 6. Yahoo
 
@@ -241,7 +241,7 @@ category: 技术研究
 
 - 网址：[https://mail.yahoo.com](https://mail.yahoo.com)
 
-  ![image-20251006212822568](image-20251006212822568.png)
+  ![无法创建地址](image-20251006212822568.png)
 
 ### 7. Yandex
 
@@ -253,7 +253,7 @@ category: 技术研究
 
 - 网址：[https://mail.yandex.com](https://mail.yandex.com)
 
-  ![image-20251006213202685](image-20251006213202685.png)
+  ![Yandex](image-20251006213202685.png)
 
 ### 8. Tuta
 
@@ -265,7 +265,7 @@ category: 技术研究
 
 - 网址：[https://mail.tutanota.com](https://mail.tutanota.com)
 
-  ![image-20251006214705545](image-20251006214705545.png)
+  ![Tuta](image-20251006214705545.png)
 
 ### 9. iCloud
 
@@ -277,7 +277,7 @@ category: 技术研究
 
 - 网址：[https://www.icloud.com.cn/mail](https://www.icloud.com.cn/mail)
 
-  ![image-20251006220101326](image-20251006220101326.png)
+  ![iCloud 邮箱](image-20251006220101326.png)
 
 ### 10. Mail.ru
 
@@ -289,55 +289,7 @@ category: 技术研究
 
 - 网址：[https://e.mail.ru](https://e.mail.ru)
 
-  ![image-20251006223117748](image-20251006223117748.png)
-
-### 11.Fastmail
-
-- 服务商：Fastmail Pty Ltd
-
-- 特点：订阅制的付费邮箱，注册账号需要交钱。
-
-- 后缀：fastmail.com
-
-- 网址：[https://www.fastmail.com](https://www.fastmail.com)
-
-  ![image-20251016182029267](image-20251016182029267.png)
-
-### 12.Inbox.com
-
-- 服务商：Inbox.com AS
-
-- 特点：也属于付费制的订阅邮箱，需要付费注册
-
-- 后缀：inbox.com
-
-- 网址：[https://inbox.com](https://inbox.com)
-
-  ![image-20251016182234914](image-20251016182234914.png)
-
-### 13. GMX
-
-- 服务商：Mail&Media
-
-- 特点：服务地区不在中国，没有86号码验证选项需自备国外号码。
-
-- 后缀：gmx.com
-
-- 网址：[https://gmx.com](https://gmx.com)
-
-  ![image-20251016185850564](image-20251016185850564.png)
-
-### 14. lycos Mail
-
-- 服务商：lycos Inc
-
-- 特点：付费订阅至邮箱，比较小众的海外邮箱。
-
-- 后缀：lycos.com
-
-- 网址：[https://mail.lycos.com/](https://mail.lycos.com/)
-
-  ![image-20251016190637549](image-20251016190637549.png)
+  ![VK 的邮箱](image-20251006223117748.png)
 
 ## 总结
 

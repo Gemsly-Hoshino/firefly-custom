@@ -15,15 +15,15 @@ tags = ['建站']
 ### 下载Hugo并准备文件
 打开Hugo，Github开源地址 [https://github.com/gohugoio/hugo/releases/tag/v0.152.2](https://github.com/gohugoio/hugo/releases/tag/v0.152.2)，往下拉，右边有一个releases点它，然后继续往下拉。
 
-![image-20251031191709925](image-20251031191709925.png)
+![下载发行版](image-20251031191709925.png)
 
 找到自己架构对应的版本，一般电脑是Windows AMD64，其他架构就需要自己摸索啦。
 
-![image-20251031192254112](image-20251031192254112.png)
+![选择自己的系统和架构](image-20251031192254112.png)
 
 下载下来的zip压缩包，用任意一个压缩文件管理器打开，里面就3个文件，把它解压到任意目录。在解压的目录下再新建一个文件夹，我这里叫`dev`，然后去WebStack的开源地址[https://github.com/shenweiyan/WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo)，点击右上角的绿色Code按钮，下面有个download zip，点一下下载。
 
-![image-20251031192809720](image-20251031192809720.png)
+![下载压缩文件](image-20251031192809720.png)
 
 下载zip包之后，把里面的examplesite拖放到刚刚创建的dev目录下。在dev目录下再新建一个themes文件夹，把压缩文件（包括第一层目录）全部解压到themes文件夹里，解压之后要把后缀“-main”删除。
 
