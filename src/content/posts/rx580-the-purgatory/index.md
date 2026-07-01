@@ -3,7 +3,7 @@ title: RX580：炼狱、哈希与赛博幽灵
 published: 2026-07-01
 description: '一张RX580的矿场编年史：从苏妈掌心的风光无限，到以太坊炼狱的燃尽青春。'
 tags: ["显卡", "捡垃圾", "随笔", "时代记忆"]
-categories: ["硬件"]
+category: '硬件和 DIY'
 licenseName: Unlicensed
 author: Unknown
 ---

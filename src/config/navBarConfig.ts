@@ -75,16 +75,16 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		// 子菜单
 		children: [
 			{
-				name: "GitHub",
-				url: "https://github.com/gemsly-hoshino/Firefly-Custom",
+				name: "开往",
+				url: "https://www.travellings.cn/go",
 				external: true,
-				icon: "fa7-brands:github",
-			},
+				icon: "fa7-solid:train",
+			},			
 			{
-				name: "Gitee",
-				url: "https://gitee.com/gemsly-hoshino/Firefly-Custom",
+				name: "空间穿梭",
+				url: "https://www.blogsclub.org/go",
 				external: true,
-				icon: "fa7-brands:gitee",
+				icon: "fa7-solid:rocket",
 			},
 		],
 	});
