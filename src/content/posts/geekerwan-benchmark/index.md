@@ -2,10 +2,10 @@
 title: 手机游戏性能大横评：厂商作弊太疯狂！
 published: 2026-03-01
 description: 我备份这部视频，旨在抵制优质、真实的自媒体评测内容被无故下架的现象。从早前的视频码率争议到如今的手游/手机评测风波，许多具备参考价值的深度内容正面临非技术性的生存挑战。
-tags: [手机, 备份]
-category: 其他资源
+tags: [手机, 性能测评]
+category: 数字存档
 author: GeekerWan极客湾
-sourceLink: "https://www.youtube.com/watch?v=hDambRVqOp8"
+sourceLink: "https://youtu.be/hDambRVqOp8"
 draft: false
 image: "./cover.png"
 ---
