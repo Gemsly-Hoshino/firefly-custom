@@ -5,7 +5,7 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "公告",
 
 	// 公告内容
-	content: "欢迎来到我的博客！",
+	content: "别看了，网站刚迁移完。之前的地方被大厂标记了。不定期更新一些硬件捡垃圾日常、随笔和各种技术折腾记录。",
 
 	// 是否允许用户关闭公告
 	closable: true,
