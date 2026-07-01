@@ -30,7 +30,7 @@ pinned = true
 
 [https://oplist.gemslyho.org](https://oplist.gemslyho.org)
 
-基于OpenList搭建的多功能云存储管理工具，对接自己存储，访客可用文件分发和下载功能。
+基于OpenList搭建的多功能云存储管理工具，对接自己连接存储。
 
 ![OpenList 截图](image-20251022183244899.png)
 
@@ -47,7 +47,7 @@ pinned = true
 
 [https://detect.gemslyho.org](https://detect.gemslyho.org)
 
-轻量级检测工具，可实时监测浏览器内核版本、IP 属地。
+可实时监测浏览器内核版本、IP 属地。
 
 ![内核检测工具截图](image-20251022183514703.png)
 
