@@ -40,18 +40,18 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push(LinkPresets.Guestbook);
 
 	// 我的及其子菜单
-	links.push({
-		name: "我的",
-		url: "#",
-		icon: "material-symbols:person",
-		children: [
+//	links.push({
+//		name: "我的",
+//		url: "#",
+//		icon: "material-symbols:person",
+//		children: [
 			// 相册
-			LinkPresets.Gallery,
-
+//			LinkPresets.Gallery,
+//
 			// 番组计划
-			LinkPresets.Bangumi,
-		],
-	});
+//			LinkPresets.Bangumi,
+//		],
+//	});
 
 	// 关于及其子菜单
 	links.push({
@@ -74,28 +74,35 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		icon: "material-symbols:link",
 		// 子菜单
 		children: [
+		
 			{
-				name: "开往",
-				url: "https://www.travellings.cn/go",
+				name: "站点监测",
+				url: "https://status.gemslyho.org",
 				external: true,
-				icon: "fa7-solid:train",
+				icon: "material-symbols:code",
 			},			
 			{
-				name: "空间穿梭",
-				url: "https://www.blogsclub.org/go",
+				name: "历史版本",
+				url: "https://archive.gemslyho.org",
 				external: true,
-				icon: "fa7-solid:rocket",
+				icon: "material-symbols:history",
+			},
+			{
+				name: "统计数据",
+				url: "https://analytics.gemslyho.org/",
+				external: true,
+				icon: "material-symbols:analytics",
 			},
 		],
 	});
 
 	// 文档链接
-	// links.push({
-	// 	name: "文档",
-	// 	url: "https://docs-firefly.cuteleaf.cn",
-	// 	external: true,
-	// 	icon: "material-symbols:docs",
-	// });
+	 links.push({
+	 	name: "开往",
+	 	url: "https://www.travellings.cn/go",
+	 	external: true,
+	 	icon: "material-symbols:train",
+	 });
 
 	return { links } as NavBarConfig;
 };
