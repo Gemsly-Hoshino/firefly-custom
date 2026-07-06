@@ -4,7 +4,7 @@ published: 2026-07-06
 description: "回顾 AMD 推土机时代的破产边缘试探，到 Intel 11代酷睿的‘灰烬版’神操作。看两大芯片巨头如何用几十万瓦的功耗，在科技史上为玩家们上演‘牙膏倒吸’幽默操作。"
 tags: [捡垃圾, 时代记忆, 随笔]
 category: "硬件和 DIY"
-draft: true
+draft: false
 author: Unknow
 licenseName: Unlicensed
 ---
