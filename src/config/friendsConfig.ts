@@ -42,14 +42,14 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true,
 	},
 	{
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites. Star to support our work!",
-		siteurl: "https://github.com/withastro/astro",
-		tags: ["Framework"],
-		weight: 8,
-		enabled: true,
-	},
+        title: "TT清沫uk",
+        imgurl: "https://ts1.tc.mm.bing.net/th/id/OIP-C.6WsD9caLSNQFhJOi77soRAHaHa?rs=1&pid=ImgDetMain&o=7&rm=3",
+        desc: "TT清沫ukの博客",
+        siteurl: "https://ttquk.github.io",
+        tags: ["Blog"], 
+        weight: 1,
+        enabled: true,
+    },
 ];
 
 // 获取启用的友链并进行排序
