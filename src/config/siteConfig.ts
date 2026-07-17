@@ -6,7 +6,7 @@ const SITE_LANG = "zh_CN";
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "Gemsly",
+	title: "Gemsly's Blog",
 
 	// 站点副标题
 	subtitle: "谁染花香入境",
