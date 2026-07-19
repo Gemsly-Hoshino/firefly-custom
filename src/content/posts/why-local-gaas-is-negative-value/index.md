@@ -3,7 +3,7 @@ title: 为什么把网游搬回本地后，它会沦为一地鸡毛？
 published: 2026-07-15
 description: '用“本地化假设”这个残酷的思想实验，将热门网游搬到本地服务器，撕开 GaaS 游戏的骗局。'
 tags: ["数据所有权","数字封建主义","GaaS"]
-category: '技术研究'
+category: '笔记和思考'
 draft: false 
 ---
 
