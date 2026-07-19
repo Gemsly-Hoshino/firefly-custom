@@ -29,7 +29,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "/assets/images/sponsor/alipay.png",
 			link: "",
 			description: "使用 支付宝 扫码打赏",
-			enabled: false,
+			enabled: true,
 		},
 		{
 			name: "微信",
@@ -37,7 +37,7 @@ export const sponsorConfig: SponsorConfig = {
 			qrCode: "/assets/images/sponsor/wechat.png",
 			link: "",
 			description: "使用 微信 扫码打赏",
-			enabled: false,
+			enabled: true,
 		},
 		{
 			name: "ko-fi",

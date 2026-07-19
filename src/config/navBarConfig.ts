@@ -37,35 +37,35 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	links.push(LinkPresets.Dynamic);
 
 	//社交及其子菜单
-	links.push({
-		name: "社交",
-		url: "#",
-		icon: "material-symbols:group",
-		children: [
-			// 相册
-			LinkPresets.Friends,
+//	links.push({
+//		name: "社交",
+//		url: "#",
+//		icon: "material-symbols:group",
+//		children: [
 
-			// 追番
-			LinkPresets.Guestbook,
-		],
-	});
+	links.push(LinkPresets.Friends);
+
+
+//		LinkPresets.Guestbook,
+//		],
+//	});
 
 	// 我的及其子菜单
-	links.push({
-		name: "我的",
-		url: "#",
-		icon: "material-symbols:person",
-		children: [
+//	links.push({
+//		name: "我的",
+//		url: "#",
+//		icon: "material-symbols:person",
+//		children: [
 			// 相册
-			LinkPresets.Gallery,
+//			LinkPresets.Gallery,
 
 			// 追番
-			LinkPresets.Anime,
+//			LinkPresets.Anime,
 
 			// 番组计划
-			LinkPresets.Bangumi,
-		],
-	});
+//			LinkPresets.Bangumi,
+//		],
+//	});
 
 	// 关于及其子菜单
 	links.push({
