@@ -8,7 +8,7 @@
 > 
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen) 
 ![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
-![Astro](https://img.shields.io/badge/Astro-6.4.4-orange)
+![Astro](https://img.shields.io/badge/Astro-7.0.7-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-blue)
 >
 > [![Stars](https://img.shields.io/github/stars/CuteLeaf/Firefly?style=social)](https://github.com/CuteLeaf/Firefly/stargazers)
@@ -43,8 +43,20 @@
 
 🔧 Высокая настраиваемость: Большинство функций можно настроить через конфигурационные файлы
 
-<img alt="firefly" src="./images/1.webp" />
-<img alt="Lighthouse" src="./images/Lighthouse.png" />
+<table width="100%" align="center">
+  <tr>
+    <td colspan="3" align="center">
+      <img src="./images/1.webp" >
+      <br>Режим баннера</td>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><img src="./images/3.webp" width="300"><br>Режим оверлея</td>
+    <td align="center"><img src="./images/2.webp" width="300"><br>Режим полноэкранных обоев</td>
+    <td align="center"><img src="./images/4.webp" width="300"><br>Режим сплошного цвета</td>
+  </tr>
+</table>
+<img alt="Lighthouse" src="./docs/images/Lighthouse.png" />
 
 >[!TIP]
 >
@@ -71,7 +83,7 @@
 - [x] **Astro + Tailwind CSS** - Сверхбыстрая генерация статических сайтов на основе современного технологического стека
 - [x] **Плавная анимация** - Анимация переходов между страницами Swup для шелковисто-плавного просмотра
 - [x] **Адаптивный дизайн** - Идеальная адаптация для настольных компьютеров, планшетов и мобильных устройств
-- [x] **Многоязычная поддержка** - Интернационализация i18n UI, поддержка упрощенного китайского, традиционного китайского, английского, японского, русского
+- [x] **Многоязычная поддержка** - Интернационализация i18n UI, поддержка упрощенного китайского, традиционного китайского, английского, японского, русского, корейского
 - [x] **Полнотекстовый поиск** - Клиентский поиск на основе Pagefind, поддержка индексации содержимого статей. 
 
 ### Персонализация
@@ -162,6 +174,7 @@ const SITE_LANG = "zh_CN";
 - `en` - Английский
 - `ja` - Японский
 - `ru` - Русский
+- `ko` - Корейский
 
 
 ### Структура конфигурационных файлов
@@ -176,6 +189,7 @@ src/
 │   ├── backgroundWallpaper.ts    # Конфигурация фоновых обоев
 │   ├── commentConfig.ts          # Конфигурация системы комментариев
 │   ├── coverImageConfig.ts       # Конфигурация обложек статей
+│   ├── dynamicConfig.ts          # Конфигурация страницы публикаций
 │   ├── effectsConfig.ts          # Конфигурация анимационных эффектов (сакура и др.)
 │   ├── expressiveCodeConfig.ts   # Конфигурация подсветки кода
 │   ├── fontConfig.ts             # Конфигурация шрифтов
@@ -186,6 +200,7 @@ src/
 │   ├── musicConfig.ts            # Конфигурация музыкального плеера
 │   ├── navBarConfig.ts           # Конфигурация навигационной панели
 │   ├── pioConfig.ts              # Конфигурация маскота
+│   ├── mermaidConfig.ts          # Конфигурация диаграмм Mermaid
 │   ├── plantumlConfig.ts         # Конфигурация диаграмм PlantUML
 │   ├── profileConfig.ts          # Конфигурация профиля пользователя
 │   ├── sidebarConfig.ts          # Конфигурация макета боковой панели
@@ -210,6 +225,24 @@ comment: true    # Включить комментарии
 ---
 ```
 
+## Публикации
+
+Публикации хранятся в `src/content/dynamic/`: один Markdown-файл соответствует одной публикации. Создать публикацию можно командой:
+
+```bash
+pnpm new-d Сегодня прекрасная погода
+```
+
+`pnpm new-dynamic <content>` — эквивалентная полная команда. 
+
+```yaml
+---
+published: 2026-07-15 16:15:29
+---
+
+В содержимом можно использовать Markdown.
+```
+
 ## 📖 Расширения Markdown
 
 Помимо поддержки [GitHub Flavored Markdown](https://github.github.com/gfm/) по умолчанию в Astro, есть несколько дополнительных функций Markdown:
@@ -222,17 +255,19 @@ comment: true    # Включить комментарии
 
 Все команды должны выполняться в корневом каталоге проекта:
 
-| Команда                    | Действие                                            |
-|:---------------------------|:----------------------------------------------------|
-| `pnpm install`             | Установить зависимости                              |
+| Команда                    | Действие                                                  |
+| :------------------------- | :-------------------------------------------------------- |
+| `pnpm install`             | Установить зависимости                                    |
 | `pnpm dev`                 | Запустить локальный сервер разработки на `localhost:4321` |
-| `pnpm build`               | Собрать сайт в `./dist/`                            |
-| `pnpm preview`             | Локальный предварительный просмотр собранного сайта |
-| `pnpm check`               | Проверить код на наличие ошибок                     |
-| `pnpm format`              | Отформатировать код с помощью Biome                 |
-| `pnpm new-post <filename>` | Создать новую статью                                |
-| `pnpm astro ...`           | Выполнить `astro add`, `astro check` и другие команды |
-| `pnpm astro --help`        | Показать справку Astro CLI                          |
+| `pnpm build`               | Собрать сайт в `./dist/`                                  |
+| `pnpm preview`             | Локальный предварительный просмотр собранного сайта       |
+| `pnpm check`               | Проверить код на наличие ошибок                           |
+| `pnpm format`              | Отформатировать код с помощью Biome                       |
+| `pnpm new-post <filename>` | Создать новую статью                                      |
+| `pnpm new-d <content>`     | Создать новую публикацию                                  |
+| `pnpm new-dynamic <content>` | Создать новую публикацию (полная команда)               |
+| `pnpm astro ...`           | Выполнить `astro add`, `astro check` и другие команды     |
+| `pnpm astro --help`        | Показать справку Astro CLI                                |
 
 ## 🙏 Благодарности
 
