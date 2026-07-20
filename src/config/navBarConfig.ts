@@ -90,33 +90,39 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 		
 			{
-				name: "站点监测",
-				url: "https://status.gemslyho.org",
+				name: "开往",
+				url: "https://www.travellings.cn/go",
 				external: true,
-				icon: "material-symbols:code",
+				icon: "material-symbols:train",
 			},			
 			{
-				name: "历史版本",
-				url: "https://archive.gemslyho.org",
+				name: "空间穿梭",
+				url: "https://www.blogsclub.org/go",
 				external: true,
-				icon: "material-symbols:history",
+				icon: "material-symbols:rocket",
 			},
 			{
-				name: "统计数据",
-				url: "https://analytics.gemslyho.org/",
+				name: "虫洞",
+				url: "https://www.foreverblog.cn/go.html",
 				external: true,
-				icon: "material-symbols:analytics",
+				icon: "material-symbols:public",
+			},
+			{
+				name: "BlogsCN",
+				url: "https://blogscn.fun/",
+				external: true,
+				icon: "material-symbols:feed",
 			},
 		],
 	});
 
 	// 文档链接
-	 links.push({
-	 	name: "开往",
-	 	url: "https://www.travellings.cn/go",
-	 	external: true,
-	 	icon: "material-symbols:train",
-	 });
+	//  links.push({
+	// 	name: "开往",
+	// 	url: "https://www.travellings.cn/go",
+	// 	external: true,
+	// 	icon: "material-symbols:train",
+	//  });
 
 	return { links } as NavBarConfig;
 };
