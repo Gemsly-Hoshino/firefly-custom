@@ -95,6 +95,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "material-symbols:train",
 			},			
+			// {
+			// 	name: "虫洞",
+			// 	url: "https://www.foreverblog.cn/go.html",
+			// 	external: true,
+			// 	icon: "material-symbols:public",
+			// },
 			{
 				name: "空间穿梭",
 				url: "https://www.blogsclub.org/go",
@@ -102,16 +108,16 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "material-symbols:rocket",
 			},
 			{
-				name: "虫洞",
-				url: "https://www.foreverblog.cn/go.html",
+				name: "异次元之旅",
+				url: "https://travel.moe/go.html",
 				external: true,
-				icon: "material-symbols:public",
+				icon: "material-symbols:travel",
 			},
 			{
-				name: "BlogsCN",
+				name: "笔墨迹",
 				url: "https://blogscn.fun/",
 				external: true,
-				icon: "material-symbols:feed",
+				icon: "material-symbols:edit",
 			},
 		],
 	});
