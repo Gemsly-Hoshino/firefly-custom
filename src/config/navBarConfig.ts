@@ -119,6 +119,18 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "material-symbols:edit",
 			},
+			{
+				name: "博友圈",
+				url: "https://www.boyouquan.com/",
+				external: true,
+				icon: "material-symbols:grain",
+			},
+			{
+				name: "好站网",
+				url: "https://haozhan.wang/",
+				external: true,
+				icon: "material-symbols:signpost",
+			},
 		],
 	});
 
