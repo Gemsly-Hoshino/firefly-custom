@@ -104,7 +104,7 @@ export const backgroundWallpaper: BackgroundWallpaperConfig = {
 		},
 		// 文章横幅信息："description" 显示描述，"meta" 显示日期、字数和阅读时长
 		postInfo: {
-			mode: "description",
+			mode: "meta",
 		},
 		// 导航栏配置
 		navbar: {

@@ -9,7 +9,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	showInSidebar: true,
 
 	// 使用方式："meting" 使用 Meting API，"local" 使用本地音乐列表
-	mode: "meting",
+	mode: "local",
 
 	// 默认音量 (0-1)
 	volume: 0.7,
@@ -48,11 +48,54 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 	local: {
 		playlist: [
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
+				name: "回家的路 The Long Way Home",
+				artist: "HOYO-MiX",
+				url: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/回家的路_The_Long_Way_Home.mp3",
+				cover: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/回家的路_The_Long_Way_Home.png",
+				lrc: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/回家的路_The_Long_Way_Home.lrc",
+			},
+			{
+				name: "让风告诉你",
+				artist: "花玲 喵☆酱 宴宁 Kinsen",
+				url: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/让风告诉你.mp3",
+				cover: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/让风告诉你.jpg",
+				lrc: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/让风告诉你.lrc",
+			},
+			{
+				name: "Constant Moderato",
+				artist: "Mitsukiyo",
+				url: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Constant_Moderato.mp3",
+				cover: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Constant_Moderato.png",
 				lrc: "",
+			},
+			{
+				name: "Midsummer cat",
+				artist: "Mitsukiyo",
+				url: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Midsummer_cat.mp3",
+				cover: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Midsummer_cat.png",
+				lrc: "",
+			},
+
+			{
+				name: "Connected Sky",
+				artist: "Mitsukiyo",
+				url: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Connected_Sky.mp3",
+				cover: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Connected_Sky.png",
+				lrc: "",
+			},
+			{
+				name: "Take Me Hand",
+				artist: "DAISHI DANCE, Cécile Corbel",
+				url: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Take_Me_Hand.mp3",
+				cover: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Take_Me_Hand.jpg",
+				lrc: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Take_Me_Hand.lrc",
+			},			
+			{
+				name: "Counting Stars",
+				artist: "OneRepublic",
+				url: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Counting_Stars.mp3",
+				cover: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Counting_Stars.png",
+				lrc: "https://bucket-hk-media-storage-v2-hk01.cos-ap-hongkong.gemslyho.org/file/music/Counting_Stars.lrc",
 			},
 		],
 	},
