@@ -61,9 +61,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 //			LinkPresets.Anime,
 
 			// 番组计划
-//			LinkPresets.Bangumi,
-//		],
-//	});
+	// 		LinkPresets.Bangumi,
+
+	// 		// 书签导航
+	// 		LinkPresets.Booknav,
+	// 	],
+	// });
 
 	// 关于及其子菜单
 	links.push({
@@ -219,6 +222,12 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		url: "/anime/",
 		icon: "material-symbols:live-tv",
 		pageKey: "anime",
+	},
+	Booknav: {
+		name: "书签导航",
+		url: "/booknav/",
+		icon: "material-symbols:bookmarks",
+		pageKey: "booknav",
 	},
 };
 
