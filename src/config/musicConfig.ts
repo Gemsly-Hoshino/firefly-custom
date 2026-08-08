@@ -62,6 +62,13 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 				lrc: "https://assets.gemslyho.org/file/music/让风告诉你.lrc",
 			},
 			{
+				name: "伴月同眠 Somnias a Luna",
+				artist: "HOYO-MiX",
+				url: "https://assets.gemslyho.org/file/music/伴月同眠_Somnias_a_Luna.mp3",
+				cover: "https://assets.gemslyho.org/file/music/伴月同眠_Somnias_a_Luna.jpg",
+				lrc: "https://assets.gemslyho.org/file/music/伴月同眠_Somnias_a_Luna.lrc",
+			},
+			{
 				name: "Constant Moderato",
 				artist: "Mitsukiyo",
 				url: "https://assets.gemslyho.org/file/music/Constant_Moderato.mp3",
