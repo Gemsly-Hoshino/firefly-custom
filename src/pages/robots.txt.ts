@@ -35,11 +35,8 @@ User-agent: YouBot
 Disallow: /
 
 User-agent: *
-Allow: /$
-Allow: /posts/
-Allow: /sitemap-index.xml
-Allow: /sitemap-0.xml
-Disallow: /
+Allow: /
+Disallow: /_astro/
 
 Sitemap: ${new URL("sitemap-index.xml", import.meta.env.SITE).href}
 `.trim();
