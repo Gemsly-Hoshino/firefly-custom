@@ -106,19 +106,19 @@ export const siteConfig: SiteConfig = {
 		// 打赏页面开关
 		sponsor: true,
 		// 留言板页面开关，需要配置评论系统
-		guestbook: true,
+		guestbook: false,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		bangumi: true,
+		bangumi: false,
 		// VNDB页面开关。
-		vndb: true,
+		vndb: false,
 		// 相册页面开关
-		gallery: true,
+		gallery: false,
 		// 追番页面开关
-		anime: true,
+		anime: false,
 		// 动态页面开关
 		dynamic: true,
 		// 书签导航页面开关
-		booknav: true,
+		booknav: false,
 	},
 
 	// 分类导航栏开关，在首页和归档页顶部显示分类快捷导航
