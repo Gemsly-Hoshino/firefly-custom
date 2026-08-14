@@ -8,7 +8,6 @@ category = '技术研究'
 tags = ['建站']
 +++
 
-# Cloudflare Workers的多种玩法，搭建免费无限图床+导航站
 
 ## 简易导航站
 

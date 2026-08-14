@@ -8,7 +8,6 @@ tags = ['域名']
 licenseName = "Unlicensed"
 +++
 
-# 国内外常用DNS、DoH地址汇总
 
 ## 国内 DNS
 

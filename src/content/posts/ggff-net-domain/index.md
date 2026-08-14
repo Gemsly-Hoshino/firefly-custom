@@ -9,7 +9,6 @@ tags = ['域名','建站']
 
 +++
 
-# 注册 ggff.net 域名 Cloudflare 托管教程
 
 ## 注册L53账号
 我们打开L53官方网站[L53 - Third Level Domain - Cheap Domain](https://l53.net/)，点击右上角的“Client Area”进入客户区域，然后点击个人信息板块下的注册按钮。

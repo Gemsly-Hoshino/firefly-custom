@@ -10,7 +10,6 @@ category: 技术研究
 ---
 ![封面](58445354-ec01-4de9-b578-4c7ab80dc485.webp)
 
-# 零成本建站指南：二级域名 + Cloudflare
 
 ## 二级域名 + Cloudflare
 - **完全免费**：二级域名和 Cloudflare 托管均无费用，适合个人/学生党
