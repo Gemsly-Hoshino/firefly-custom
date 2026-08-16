@@ -57,22 +57,22 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 			// 相册
 			LinkPresets.Gallery,
 
-			// 追番
-			LinkPresets.Anime,
-			// 书签导航
-			LinkPresets.Booknav,
+	// 		// 追番
+			// LinkPresets.Anime,
+	// 		// 书签导航
+			// LinkPresets.Booknav,
 
-			// 哔哩哔哩追番
-			LinkPresets.Bilibili,
+	// 		// 哔哩哔哩追番
+			// LinkPresets.Bilibili,
 
-			// 番组计划
-	 		LinkPresets.Bangumi,
+	// 		// 番组计划
+	 		// LinkPresets.Bangumi,
 
-			// VNDB
-			LinkPresets.VNDB,
+	// 		// VNDB
+			// LinkPresets.VNDB,
 
-			// MyAnimeList
-			LinkPresets.MAL,
+	// 		// MyAnimeList
+			// LinkPresets.MAL,
 		],
 	});
 
