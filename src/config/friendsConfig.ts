@@ -51,7 +51,7 @@ export const friendsConfig: FriendLink[] = [
         enabled: true,
     },
 	{
-	"title": "MingBlog（Ming 博客）",
+	"title": "MingBlog",
 	"imgurl": "https://mingblog.site/icons/icon-512.png",
 	"desc": "记录日常生活、城市影像、旅行与观察，以及认真看过、读过和听过的作品。",
 	"siteurl": "https://mingblog.site",
