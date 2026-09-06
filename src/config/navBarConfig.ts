@@ -107,12 +107,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "material-symbols:train",
 			},			
-			// {
-			// 	name: "虫洞",
-			// 	url: "https://www.foreverblog.cn/go.html",
-			// 	external: true,
-			// 	icon: "material-symbols:public",
-			// },
+			{
+				name: "虫洞",
+				url: "https://www.foreverblog.cn/go.html",
+				external: true,
+				icon: "material-symbols:public",
+			},
 			{
 				name: "空间穿梭",
 				url: "https://www.blogsclub.org/go",
@@ -142,6 +142,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				url: "https://haozhan.wang/",
 				external: true,
 				icon: "material-symbols:signpost",
+			},
+			{
+				name: "博客大联盟",
+				url: "https://bo.ke/",
+				external: true,
+				icon: "material-symbols:article",
 			},
 		],
 	});
