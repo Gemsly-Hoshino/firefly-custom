@@ -22,7 +22,7 @@ export const profileConfig: ProfileConfig = {
 	// showName: true 时显示图标和名称，false 时只显示图标
 	links: [
 		{
-			name: "telegram",
+			name: "Telegram",
 			icon: "fa7-brands:telegram",
 			url: "https://t.me/GemslyLiveChatBot",
 			showName: false,
