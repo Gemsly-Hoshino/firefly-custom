@@ -20,6 +20,6 @@
 
 我们十分重视你的隐私与数据安全。
 
-关于信息收集范围、存储期限及你的权利等详细说明，请转到我们的 [隐私政策](https://docs.gemslyho.org/support/privacy) 和 [开放源代码许可](https://docs.gemslyho.org/support/open-source)。
+关于信息收集范围、存储期限及你的权利等详细说明，请转到我们的[服务条款](https://docs.gemslyho.org/terms-of-services.html) 和 [隐私政策](https://docs.gemslyho.org/privacy-policy.html) 。
 
 感谢你的访问与信任！
