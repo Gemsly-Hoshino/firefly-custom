@@ -69,7 +69,7 @@ export const friendsConfig: FriendLink[] = [
 	"enabled": true
 	},
   {
-    "title": "萌ICP备",
+    "title": "萌国ICP备案",
     "imgurl": "https://icp.gov.moe/images/gov.svg",
     "desc": "萌备20260010号",
     "siteurl": "https://icp.gov.moe/?keyword=20260010",
@@ -78,7 +78,7 @@ export const friendsConfig: FriendLink[] = [
     "enabled": true
   },
   {
-    "title": "茶ICP备",
+    "title": "茶ICP备案",
     "imgurl": "https://icp.redcha.cn/favicon.ico",
     "desc": "茶备2025120255号",
     "siteurl": "https://icp.redcha.cn/beian/ICP-2025120255.html",
