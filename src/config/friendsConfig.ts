@@ -29,7 +29,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
 		siteurl: "https://blog.cuteleaf.cn",
 		tags: ["Blog"],
-		weight: 1, // 权重，数字越大排序越靠前
+		weight: 8, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
 	{
@@ -38,7 +38,7 @@ export const friendsConfig: FriendLink[] = [
 		desc: "Protect What You Love.",
 		siteurl: "https://2x.nz",
 		tags: ["Blog"],
-		weight: 1,
+		weight: 8,
 		enabled: true,
 	},
 	{
@@ -47,7 +47,7 @@ export const friendsConfig: FriendLink[] = [
         desc: "TT清沫ukの博客",
         siteurl: "https://ttquk.github.io",
         tags: ["Blog"], 
-        weight: 1,
+        weight: 8,
         enabled: true,
     },
 	{
@@ -56,9 +56,45 @@ export const friendsConfig: FriendLink[] = [
 	"desc": "记录日常生活、城市影像、旅行与观察，以及认真看过、读过和听过的作品。",
 	"siteurl": "https://mingblog.site",
 	"tags": ["Blog"],
-	"weight": 1,
+	"weight": 8,
 	"enabled": true
-	}
+	},
+	{
+	"title": "ねねこ小屋",
+	"imgurl": "https://huinaihui.com/assets/nanako.jpg?v=2",
+	"desc": "主记录创作的y2k风格个人网站",
+	"siteurl": "https://huinaihui.com/",
+	"tags": ["Blog"],
+	"weight": 8,
+	"enabled": true
+	},
+  {
+    "title": "萌ICP备",
+    "imgurl": "https://icp.gov.moe/images/gov.svg",
+    "desc": "萌备20260010号",
+    "siteurl": "https://icp.gov.moe/?keyword=20260010",
+    "tags": ["Member"],
+    "weight": 1,
+    "enabled": true
+  },
+  {
+    "title": "茶ICP备",
+    "imgurl": "https://icp.redcha.cn/favicon.ico",
+    "desc": "茶备2025120255号",
+    "siteurl": "https://icp.redcha.cn/beian/ICP-2025120255.html",
+    "tags": ["Member"],
+    "weight": 1,
+    "enabled": true
+  },
+  {
+    "title": "幸福ICP备案",
+    "imgurl": "https://icp.felicity.land/favicon.ico",
+    "desc": "幸备20250101号",
+    "siteurl": "https://icp.felicity.land/id.php?keyword=20250101",
+    "tags": ["Member"],
+    "weight": 1,
+    "enabled": true
+  }
 ];
 
 // 获取启用的友链并进行排序
