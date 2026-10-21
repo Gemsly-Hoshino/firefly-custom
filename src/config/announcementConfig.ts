@@ -5,19 +5,19 @@ export const announcementConfig: AnnouncementConfig = {
 	title: "",
 
 	// 公告内容
-	content: "别看了，网站刚迁移完。之前的地方被大厂标记了。不定期更新一些硬件捡垃圾日常、随笔和各种技术折腾记录。",
+	content: "本站已对 隐私政策 与 服务条款 进行了更新与修订。继续使用即代表您同意这些协议。",
 
 	// 是否允许用户关闭公告
 	closable: true,
 
 	link: {
 		// 启用链接
-		enable: true,
+		enable: false,
 		// 链接文本
-		text: "了解更多",
+		text: "隐私政策",
 		// 链接 URL
-		url: "/about/",
+		url: "https://docs.gemslyho.org/privacy-policy.html",
 		// 内部链接
-		external: false,
+		external: true,
 	},
 };
