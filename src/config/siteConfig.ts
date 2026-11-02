@@ -45,14 +45,14 @@ export const siteConfig: SiteConfig = {
 	title: "Gemsly's Blog",
 
 	// 站点副标题
-	subtitle: "谁染花香入境",
+	subtitle: "读书感悟、社会观察与技术探索",
 
 	// 站点 URL
 	site_url: "https://blog.gemslyho.org",
 
 	// 站点描述
 	description:
-		"谁染花香入境，一缕清风拂心头。欢迎来到Gemsly的个人博客，这里记录了我的点滴生活、技术分享和创作灵感。",
+		"读书感悟、社会观察与技术探索。这里记录读过的书、看到的社会切片，以及一路折腾下去的技术实验。",
 
 	// 站点关键词
 	keywords: [
