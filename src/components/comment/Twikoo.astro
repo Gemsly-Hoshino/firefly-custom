@@ -16,9 +16,22 @@ const config = {
 	el: "#tcomment",
 	path: Astro.props.path,
 };
+const termsUrl = "https://docs.gemslyho.org/terms-of-services.html";
+const privacyUrl = "https://docs.gemslyho.org/privacy-policy.html";
 ---
 
 <div id="tcomment"></div>
+<p class="mt-2 text-xs leading-relaxed text-(--content-meta)">
+	提交评论即代表您同意我们的<a
+		href={termsUrl}
+		target="_blank"
+		rel="noopener noreferrer"
+		class="text-(--primary) hover:underline">服务条款</a>和<a
+		href={privacyUrl}
+		target="_blank"
+		rel="noopener noreferrer"
+		class="text-(--primary) hover:underline">隐私政策</a>
+</p>
 <script is:inline src={jsUrl} defer></script>
 {cssUrl && <link rel="stylesheet" href={cssUrl.startsWith("http") ? cssUrl : url(cssUrl)} />}
 <script is:inline define:vars={{ config }}>
